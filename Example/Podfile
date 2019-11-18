@@ -1,6 +1,11 @@
 use_frameworks!
-target 'DemoCoco_Tests' do
+
+target 'DemoCoco_Example' do
   pod 'DemoCoco', :path => '../'
-  
-  
+
+  target 'DemoCoco_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

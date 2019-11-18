@@ -1,0 +1,6 @@
+framework module DemoCoco {
+  umbrella header "DemoCoco-umbrella.h"
+
+  export *
+  module * { export * }
+}
